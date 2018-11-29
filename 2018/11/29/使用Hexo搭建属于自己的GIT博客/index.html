@@ -7,13 +7,42 @@
   
   <title>Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
+  <meta name="description" content="title: 使用Hexo搭建属于自己的GIT博客@TOC  前言：电脑系统为window 10专业版，64位  相关步骤：1、安装Node.js和配置好Node.js环境，打开cmd命令行，成功界面如下 2、安装Git和配置好Git环境，安装成功的象征就是在电脑上任何位置鼠标右键能够出现如下两个选择  注意：一般出于安全考虑，只有在Git Bash Here中才能进行Git的相关操作。如果需要在">
+<meta property="og:type" content="article">
 <meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:url" content="http://yoursite.com/2018/11/29/使用Hexo搭建属于自己的GIT博客/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="title: 使用Hexo搭建属于自己的GIT博客@TOC  前言：电脑系统为window 10专业版，64位  相关步骤：1、安装Node.js和配置好Node.js环境，打开cmd命令行，成功界面如下 2、安装Git和配置好Git环境，安装成功的象征就是在电脑上任何位置鼠标右键能够出现如下两个选择  注意：一般出于安全考虑，只有在Git Bash Here中才能进行Git的相关操作。如果需要在">
 <meta property="og:locale" content="default">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20181129113105586.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20181129113126904.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20181129113158813.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20181129113242968.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MTQ4ODIzOA==,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20181129113304831.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MTQ4ODIzOA==,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20181129113323544.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/2018112911334370.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MTQ4ODIzOA==,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/2018112911340068.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MTQ4ODIzOA==,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20181129113417569.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/2018112911344665.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20181129113513780.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20181129113527126.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MTQ4ODIzOA==,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20181129113546848.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20181129113610829.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20181129113802817.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MTQ4ODIzOA==,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20181129114129383.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20181129114139375.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MTQ4ODIzOA==,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20181129114519997.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20181129114719785.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MTQ4ODIzOA==,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20181129114825589.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20181129114909333.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20181129114919607.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20181129114932631.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20181129114944507.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MTQ4ODIzOA==,size_16,color_FFFFFF,t_70">
+<meta property="og:updated_time" content="2018-11-29T03:58:13.684Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo">
+<meta name="twitter:description" content="title: 使用Hexo搭建属于自己的GIT博客@TOC  前言：电脑系统为window 10专业版，64位  相关步骤：1、安装Node.js和配置好Node.js环境，打开cmd命令行，成功界面如下 2、安装Git和配置好Git环境，安装成功的象征就是在电脑上任何位置鼠标右键能够出现如下两个选择  注意：一般出于安全考虑，只有在Git Bash Here中才能进行Git的相关操作。如果需要在">
+<meta name="twitter:image" content="https://img-blog.csdnimg.cn/20181129113105586.png">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -60,9 +89,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-使用Hexo搭建属于自己的GIT博客" class="article article-type-post" itemscope="" itemprop="blogPost">
+        <section id="main"><article id="post-使用Hexo搭建属于自己的GIT博客" class="article article-type-post" itemscope="" itemprop="blogPost">
   <div class="article-meta">
     <a href="/2018/11/29/使用Hexo搭建属于自己的GIT博客/" class="article-date">
   <time datetime="2018-11-29T03:57:21.785Z" itemprop="datePublished">2018-11-29</time>
@@ -97,93 +124,19 @@
     </footer>
   </div>
   
-</article>
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-hello" class="article article-type-post" itemscope="" itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2018/11/29/hello/" class="article-date">
-  <time datetime="2018-11-29T03:07:18.000Z" itemprop="datePublished">2018-11-29</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/11/29/hello/">hello</a>
-    </h1>
+    <a href="/2018/11/29/hello/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">hello</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/11/29/hello/" data-id="cjp22kd600001xcnhthvaudt5" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
   
 </article>
-
-
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope="" itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2018/11/29/hello-world/" class="article-date">
-  <time datetime="2018-11-29T02:53:00.116Z" itemprop="datePublished">2018-11-29</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/11/29/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/11/29/hello-world/" data-id="cjp22kd5u0000xcnhm32z434i" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-
 
 </section>
         
